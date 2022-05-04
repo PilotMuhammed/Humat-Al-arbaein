@@ -1,208 +1,211 @@
 <!DOCTYPE html>
 <html lang="ar">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>حماة الأربعين</title>
-    <link rel="stylesheet" href="../css/all.min.css">
-    <link rel="stylesheet" href="../css/index.css">
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
-    <link rel="icon" href="../logos/logo_white.svg">
+    <link rel="stylesheet" href="../css/all.min.css" />
+    <link rel="stylesheet" href="../css/index.css" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="icon" href="../logos/logo_white.svg" />
+    <script src="../js/Header.js" defer type="text/javascript"></script>
+    <script src="../js/Footer.js" defer type="text/javascript"></script>
+  </head>
 
-</head>
-
-<body dir="rtl" class="body">
-
-
+  <body dir="rtl" class="body">
+    <header-component></header-component>
     <!-- ----------MENU BAR---------- -->
 
-    <nav id="nav" class="menu_bar">
-        <div class="menu_logo">
-            <a href="index.html">
-                <img src="../logos/logo_orange.svg" alt="logo">
+    <!-- <nav id="nav" class="menu_bar">
+      <div class="menu_logo">
+        <a href="index.html">
+          <img src="../logos/logo_orange.svg" alt="logo" />
+        </a>
+      </div>
+      <div class="menu_items">
+        <ul>
+          <li>
+            <a href="hosts.html">
+              المضايف
+              <div class="underlind"></div>
             </a>
-        </div>
-        <div class="menu_items">
-            <ul>
-                <li>
-                    <a href="hosts.html">
-                        المضايف
-                        <div class="underlind"></div>
-                    </a>
-                </li>
-                <li>
-                    <a href="map.html">
-                        الخارطة
-                        <div class="underlind"></div>
-                    </a>
-                </li>
-                <li>
-                    <a href="stories.html">
-                        القصص
-                        <div class="underlind"></div>
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-
+          </li>
+          <li>
+            <a href="map.html">
+              الخارطة
+              <div class="underlind"></div>
+            </a>
+          </li>
+          <li>
+            <a href="stories.html">
+              القصص
+              <div class="underlind"></div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav> -->
 
     <!-- ----------HEADER---------- -->
 
     <header class="header">
-        <div class="header_items">
-            <img src="../logos/logo_white.svg" class="header_logo" alt="logo">
-            <p class="web_des">
-                كل من خدم وحافظ على زائري الإمام الحسين عليه السلام
-                في زمن النظام البعثي عندما كانت الزيارة تعتبر جريمة
-            </p>
-            <span class="down_button">
-                <a href="#main" class="scroll_button"><i class="fas fa-chevron-circle-down"></i></a>
-            </span>
-        </div>
+      <div class="header_items">
+        <img src="../logos/logo_white.svg" class="header_logo" alt="logo" />
+        <p class="web_des">
+          كل من خدم وحافظ على زائري الإمام الحسين عليه السلام في زمن النظام
+          البعثي عندما كانت الزيارة تعتبر جريمة
+        </p>
+        <span class="down_button">
+          <a href="#main" class="scroll_button"
+            ><i class="fas fa-chevron-circle-down"></i
+          ></a>
+        </span>
+      </div>
 
-        <div class="slideshow">
-            <img src="../images/wallpaper1.jpg" class="wallpaper wall1" alt="...">
-            <img src="../images/wallpaper2.jpg" class="wallpaper wall2" alt="...">
-            <img src="../images/wallpaper3.jpg" class="wallpaper wall3" alt="...">
-        </div>
-
+      <div class="slideshow">
+        <img src="../images/wallpaper1.jpg" class="wallpaper wall1" alt="..." />
+        <img src="../images/wallpaper2.jpg" class="wallpaper wall2" alt="..." />
+        <img src="../images/wallpaper3.jpg" class="wallpaper wall3" alt="..." />
+      </div>
     </header>
-
 
     <!-- ----------MAIN---------- -->
 
     <main class="main" id="main">
+      <!-- ----------HOSTS SECTION---------- -->
 
+      <section class="hosts_sec">
+        <article class="sec_type">
+          <h2 class="sec_title"><a href="hosts.html">المضايف</a></h2>
+          <p class="sec_des">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum,
+            labore.
+          </p>
+        </article>
+        <article>
+          <a href="host.html">
+            <div class="host_card">
+              <img src="../images/img-card1.jpg" alt="" />
+              <div class="host_card_text">
+                <p class="host_name">اسم المضيف</p>
+              </div>
+            </div>
+          </a>
+        </article>
+        <article>
+          <a href="host.html">
+            <div class="host_card">
+              <img src="../images/img-card2.jpg" alt="" />
+              <div class="host_card_text">
+                <p class="host_name">اسم المضيف</p>
+              </div>
+            </div>
+          </a>
+        </article>
+        <article>
+          <a href="host.html">
+            <div class="host_card">
+              <img src="../images/img-card3.jpg" alt="" />
+              <div class="host_card_text">
+                <p class="host_name">اسم المضيف</p>
+              </div>
+            </div>
+          </a>
+        </article>
+      </section>
 
-        <!-- ----------HOSTS SECTION---------- -->
+      <!-- ----------STORIES SECTION---------- -->
 
-        <section class="hosts_sec">
-            <article class="sec_type">
-                <h2 class="sec_title"><a href="hosts.html">المضايف</a></h2>
-                <p class="sec_des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, labore.</p>
-            </article>
-            <article>
-                <a href="host.html">
-                    <div class="host_card">
-                        <img src="../images/img-card1.jpg" alt="">
-                        <div class="host_card_text">
-                            <p class="host_name"> اسم المضيف</p>
-                        </div>
-                    </div>
-                </a>
-            </article>
-            <article>
-                <a href="host.html">
-                    <div class="host_card">
-                        <img src="../images/img-card2.jpg" alt="">
-                        <div class="host_card_text">
-                            <p class="host_name"> اسم المضيف</p>
-                        </div>
-                    </div>
-                </a>
-            </article>
-            <article>
-                <a href="host.html">
-                    <div class="host_card">
-                        <img src="../images/img-card3.jpg" alt="">
-                        <div class="host_card_text">
-                            <p class="host_name"> اسم المضيف</p>
-                        </div>
-                    </div>
-                </a>
-            </article>
-        </section>
+      <section class="stories_sec">
+        <article class="sec_type">
+          <h2 class="sec_title"><a href="stories.html">القصص</a></h2>
+          <p class="sec_des">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti,
+            perspiciatis?
+          </p>
+        </article>
 
+        <article class="stories_container">
+          <div class="story_card">
+            <div class="story-name-container">
+              <h4 class="story_name sn1">اسم القصة1</h4>
+              <h4 class="story_name sn2">اسم القصة2</h4>
+              <h4 class="story_name sn3">اسم القصة3</h4>
+            </div>
+            <div class="text_slide">
+              <p class="story_text story_p1">
+                p1 -- Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Assumenda, repellendus nulla fugit animi doloribus est
+                consequuLorem ipsum dolor sit amet consectetur adipisicing elit.
+                Assumenda, repellendus nulla fugit animi doloribus est
+                consequuLorem ipsum dolor sit amet consectetur adipisicing elit.
+                Assumenda, repellendus nulla fugit animi doloribus est
+                consequuLorem ipsum dolor sit amet consectetur adipisicing elit.
+                Assumenda, repellendus nulla fugit animi
+              </p>
 
-        <!-- ----------STORIES SECTION---------- -->
+              <p class="story_text story_p2">
+                p 2 -- doloremque? Nam ipsa mollitia a aut iusto! Possimus
+                adipisci recusandae consequatur molestiae cumque, id commodi
+                sequi officia animi necessitatibus molestias odit culpa delectus
+                ut provident natus autem exercitationem enim accusantium. Dicta,
+                soluta quosLorem ipsum dolor sit amet
+              </p>
 
-        <section class="stories_sec">
-            <article class="sec_type">
-                <h2 class="sec_title"><a href="stories.html">القصص</a></h2>
-                <p class="sec_des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, perspiciatis?</p>
-            </article>
-
-            <article class="stories_container">
-                <div class="story_card">
-                    <div class="story-name-container">
-                        <h4 class="story_name sn1">اسم القصة1</h4>
-                        <h4 class="story_name sn2">اسم القصة2</h4>
-                        <h4 class="story_name sn3">اسم القصة3</h4>
-                    </div>
-                    <div class="text_slide">
-                        <p class="story_text story_p1">p1 -- Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit.
-                            Assumenda,
-                            repellendus
-                            nulla fugit animi doloribus est consequuLorem ipsum dolor sit amet consectetur
-                            adipisicing elit.
-                            Assumenda, repellendus nulla fugit animi doloribus est consequuLorem ipsum dolor sit
-                            amet
-                            consectetur adipisicing elit. Assumenda, repellendus nulla fugit animi doloribus est
-                            consequuLorem
-                            ipsum dolor sit amet consectetur adipisicing elit. Assumenda, repellendus nulla
-                            fugit animi</p>
-
-                        <p class="story_text story_p2">
-                            p 2 -- doloremque? Nam ipsa mollitia a aut iusto! Possimus adipisci recusandae
-                            consequatur
-                            molestiae
-                            cumque, id commodi sequi officia animi necessitatibus molestias odit culpa delectus
-                            ut provident
-                            natus autem exercitationem enim accusantium. Dicta, soluta quosLorem ipsum dolor sit
-                            amet</p>
-
-                        <p class="story_text story_p3">
-                            p 3 -- doloribus est consequuLorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Assumenda,
-                            repellendus nulla fugit animi doloribus est consequuLorem ipsum dolor sit amet
-                            consectetur
-                            adipisicing elit. Assumenda, repellendus nulla fugit animi doloribus est
-                            consequuntur adipisci
-                            doloremque? Nam ipsa mollitia a aut iusto! Possimus adipisci recusandae consequatur
-                            molestiae
-                            cumque, id commodi sequi officia animi necessitatibus molestias odit culpa delectus
-                            ut provident
-                            natus autem exercitationem enim accusantium. Dicta, soluta quosLorem ipsum dolor sit
-                            amet
-                            consectetur adipisicing elit. Assumenda, repellendus nulla fugit animi doloribus est
-                            consequuntur
-                            adipisci doloremque? Nam ipsa mollitia a aut iusto! Possimus adipisci recusandae
-                            consequatur
-                            molestiae cumque, id commodi sequi officia animi necessitatibus molestias odit culpa
-                            delectus ut
-                            provident natus autem exercitationem enim accusantium. Dicta, soluta quos.</p>
-                    </div>
-                    <ul class="slide_points">
-                        <li class=""><a><i class="fa-solid fa-circle point1"></i></a></li>
-                        <li class=""><a><i class="fa-solid fa-circle point2"></i></a></li>
-                        <li class=""><a><i class="fa-solid fa-circle point3"></i></a></li>
-                    </ul>
-                </div>
-            </article>
-        </section>
+              <p class="story_text story_p3">
+                p 3 -- doloribus est consequuLorem ipsum dolor sit amet
+                consectetur adipisicing elit. Assumenda, repellendus nulla fugit
+                animi doloribus est consequuLorem ipsum dolor sit amet
+                consectetur adipisicing elit. Assumenda, repellendus nulla fugit
+                animi doloribus est consequuntur adipisci doloremque? Nam ipsa
+                mollitia a aut iusto! Possimus adipisci recusandae consequatur
+                molestiae cumque, id commodi sequi officia animi necessitatibus
+                molestias odit culpa delectus ut provident natus autem
+                exercitationem enim accusantium. Dicta, soluta quosLorem ipsum
+                dolor sit amet consectetur adipisicing elit. Assumenda,
+                repellendus nulla fugit animi doloribus est consequuntur
+                adipisci doloremque? Nam ipsa mollitia a aut iusto! Possimus
+                adipisci recusandae consequatur molestiae cumque, id commodi
+                sequi officia animi necessitatibus molestias odit culpa delectus
+                ut provident natus autem exercitationem enim accusantium. Dicta,
+                soluta quos.
+              </p>
+            </div>
+            <ul class="slide_points">
+              <li class="">
+                <a><i class="fa-solid fa-circle point1"></i></a>
+              </li>
+              <li class="">
+                <a><i class="fa-solid fa-circle point2"></i></a>
+              </li>
+              <li class="">
+                <a><i class="fa-solid fa-circle point3"></i></a>
+              </li>
+            </ul>
+          </div>
+        </article>
+      </section>
     </main>
-
 
     <!-- ----------FOOTER---------- -->
 
-    <footer class="footer">
-        <ul>
-            <li>
-                <a href="" target="_blank"><i class="fa-solid fa-envelope"></i></a>
-            </li>
-            <li>
-                <a href="" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-            </li>
-            <li>
-                <a href="" target="_blank"><i class="fa-brands fa-facebook-square"></i></a>
-            </li>
-        </ul>
-    </footer>
+    <!-- <footer class="footer">
+      <ul>
+        <li>
+          <a href="" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+        </li>
+        <li>
+          <a href="" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        </li>
+        <li>
+          <a href="" target="_blank"
+            ><i class="fa-brands fa-facebook-square"></i
+          ></a>
+        </li>
+      </ul>
+    </footer> -->
 
-</body>
-
+    <footer-component></footer-component>
+  </body>
 </html>
