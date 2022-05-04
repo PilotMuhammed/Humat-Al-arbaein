@@ -116,7 +116,6 @@ header {
   position: absolute;
   top: 55%;
   right: 50%;
-
   transform: translate(50%, -50%);
   animation: des 5s ease-out;
 }
