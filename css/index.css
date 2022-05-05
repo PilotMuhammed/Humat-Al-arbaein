@@ -25,7 +25,7 @@ html {
   top: 0%;
   z-index: 3;
   width: 100%;
-  padding: 0% 107px;
+  display: flex;
   height: 40px;
 }
 

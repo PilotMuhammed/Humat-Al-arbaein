@@ -9,44 +9,19 @@
     <link rel="stylesheet" href="../css/hosts.css" />
     <link rel="stylesheet" href="../css/bootstrap.min.css" />
     <link rel="icon" href="../logos/logo_white.svg" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <script src="../js/Header.js" defer type="text/javascript"></script>
+    <script src="../js/Footer.js" defer type="text/javascript"></script>
   </head>
 
   <body dir="rtl" class="body">
     <!-- ----------MENU BAR---------- -->
 
-    <nav id="nav" class="menu_bar">
-      <div class="menu_logo">
-        <a href="index.html">
-          <img src="../logos/logo_orange.svg" alt="logo" />
-        </a>
-      </div>
-      <div class="menu_items">
-        <ul>
-          <li>
-            <a href="hosts.html">
-              المضايف
-              <div class="underlind onLoad"></div>
-            </a>
-          </li>
-          <li>
-            <a href="map.html">
-              الخارطة
-              <div class="underlind"></div>
-            </a>
-          </li>
-          <li>
-            <a href="stories.html">
-              القصص
-              <div class="underlind"></div>
-            </a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+    <header-component></header-component>
 
     <!-- ----------MAIN---------- -->
 
-    <main class="hosts-holder">
+    <div class="hosts-holder">
       <section>
         <article>
           <a href="host.html">
@@ -209,24 +184,10 @@
           </a>
         </article>
       </section>
-    </main>
+    </div>
 
     <!-- ----------FOOTER---------- -->
 
-    <footer class="footer">
-      <ul>
-        <li>
-          <a href="" target="_blank"><i class="fa-solid fa-envelope"></i></a>
-        </li>
-        <li>
-          <a href="" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-        </li>
-        <li>
-          <a href="" target="_blank"
-            ><i class="fa-brands fa-facebook-square"></i
-          ></a>
-        </li>
-      </ul>
-    </footer>
+    <footer-component></footer-component>
   </body>
 </html>
