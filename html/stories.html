@@ -1,186 +1,188 @@
 <!DOCTYPE html>
 <html lang="ar">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>القصص</title>
-    <link rel="stylesheet" href="../css/all.min.css">
-    <link rel="stylesheet" href="../css/stories.css">
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
-    <link rel="icon" href="../logos/logo_white.svg">
+    <link rel="stylesheet" href="../css/all.min.css" />
+    <link rel="stylesheet" href="../css/stories.css" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="icon" href="../logos/logo_white.svg" />
     <script defer src="../js/stories.js"></script>
+  </head>
 
-</head>
-
-<body dir="rtl" class="body">
-
-
+  <body dir="rtl" class="body">
     <!-- ----------MENU BAR---------- -->
 
-    <nav id="nav" class="menu_bar">
-        <div class="menu_logo">
-            <a href="index.html">
-                <img src="../logos/logo_orange.svg" alt="logo">
+    <!-- <nav id="nav" class="menu_bar">
+      <div class="menu_logo">
+        <a href="index.html">
+          <img src="../logos/logo_orange.svg" alt="logo" />
+        </a>
+      </div>
+      <div class="menu_items">
+        <ul>
+          <li>
+            <a href="hosts.html">
+              المضايف
+              <div class="underlind"></div>
             </a>
-        </div>
-        <div class="menu_items">
-            <ul>
-                <li>
-                    <a href="hosts.html">
-                        المضايف
-                        <div class="underlind"></div>
-                    </a>
-                </li>
-                <li>
-                    <a href="map.html">
-                        الخارطة
-                        <div class="underlind"></div>
-                    </a>
-                </li>
-                <li>
-                    <a href="stories.html">
-                        القصص
-                        <div class="underlind onLoad"></div>
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-
+          </li>
+          <li>
+            <a href="map.html">
+              الخارطة
+              <div class="underlind"></div>
+            </a>
+          </li>
+          <li>
+            <a href="stories.html">
+              القصص
+              <div class="underlind onLoad"></div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav> -->
 
     <!-- ----------MAIN---------- -->
 
-    <main class="main">
+    <div class="page-container">
+      <!-- -----HEADER----- -->
 
+      <header>
+        <ul id="icons">
+          <li
+            class="type_icon read_icon"
+            id="read_icon"
+            onclick="stories_show()"
+          >
+            <i class="fa-solid fa-align-right type_logo"></i>
+          </li>
+          <li
+            class="type_icon watch_icon"
+            id="watch_icon"
+            onclick="videos_show()"
+          >
+            <i class="fa-solid fa-film type_logo"></i>
+          </li>
+          <li
+            class="type_icon listen_icon"
+            id="listen_icon"
+            onclick="audios_show()"
+          >
+            <i class="fa-solid fa-headphones type_logo"></i>
+          </li>
+        </ul>
+      </header>
 
-        <!-- -----HEADER----- -->
+      <!-- -----READING SECTION----- -->
 
-        <header>
-            <ul id="icons">
-                <li class="type_icon read_icon" id="read_icon" onclick="stories_show()">
-                    <i class="fa-solid fa-align-right type_logo"></i>
-                </li>
-                <li class="type_icon watch_icon" id="watch_icon" onclick="videos_show()">
-                    <i class="fa-solid fa-film type_logo"></i>
-                </li>
-                <li class="type_icon listen_icon" id="listen_icon" onclick="audios_show()">
-                    <i class="fa-solid fa-headphones type_logo"></i>
-                </li>
-            </ul>
-        </header>
+      <section class="read_sec" id="read_sec">
+        <div class="story_card">
+          <h4 class="story_name">اسم القصة</h4>
+          <p class="story_text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda,
+            repellendus nulla fugit animi doloribus est consequuLorem ipsum
+            dolor sit amet consectetur adipisicing elit. Assumenda, repellendus
+            nulla fugit animi doloribus est consequuLorem ipsum dolor sit amet
+            consectetur adipisicing elit. Assumenda, repellendus nulla fugit
+            animi doloribus est consequuLorem ipsum dolor sit amet consectetur
+            adipisicing elit. Assumenda, repellendus nulla fugit animi
+          </p>
+        </div>
+        <div class="story_card">
+          <h4 class="story_name">اسم القصة</h4>
+          <p class="story_text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda,
+            repellendus nulla fugit animi doloribus est consequuLorem ipsum
+            dolor sit amet consectetur adipisicing elit. Assumenda, repellendus
+            nulla fugit animi doloribus est consequuLorem ipsum dolor sit amet
+            consectetur adipisicing elit. Assumenda, repellendus nulla fugit
+            animi doloribus est consequuLorem ipsum dolor sit amet consectetur
+            adipisicing elit. Assumenda, repellendus nulla fugit animi
+          </p>
+        </div>
+        <div class="story_card">
+          <h4 class="story_name">اسم القصة</h4>
+          <p class="story_text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda,
+            repellendus nulla fugit animi doloribus est consequuLorem ipsum
+            dolor sit amet consectetur adipisicing elit. Assumenda, repellendus
+            nulla fugit animi doloribus est consequuLorem ipsum dolor sit amet
+            consectetur adipisicing elit. Assumenda, repellendus nulla fugit
+            animi doloribus est consequuLorem ipsum dolor sit amet consectetur
+            adipisicing elit. Assumenda, repellendus nulla fugit animi
+          </p>
+        </div>
+        <div class="story_card">
+          <h4 class="story_name">اسم القصة</h4>
+          <p class="story_text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda,
+            repellendus nulla fugit animi doloribus est consequuLorem ipsum
+            dolor sit amet consectetur adipisicing elit. Assumenda, repellendus
+            nulla fugit animi doloribus est consequuLorem ipsum dolor sit amet
+            consectetur adipisicing elit. Assumenda, repellendus nulla fugit
+            animi doloribus est consequuLorem ipsum dolor sit amet consectetur
+            adipisicing elit. Assumenda, repellendus nulla fugit animi
+          </p>
+        </div>
+      </section>
 
+      <!-- -----WATCHING SECTION----- -->
 
-        <!-- -----READING SECTION----- -->
+      <section class="watch_sec" id="watch_sec">
+        <iframe
+          class="embed_video"
+          src="https://www.youtube.com/embed/wzhYJ4HMb2k"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <iframe
+          class="embed_video"
+          src="https://www.youtube.com/embed/6c3wW777GtI"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <iframe
+          class="embed_video"
+          src="https://www.youtube.com/embed/o1QR09aShcQ"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </section>
 
-        <section class="read_sec" id="read_sec">
-            <div class="story_card">
-                <h4 class="story_name">اسم القصة</h4>
-                <p class="story_text">Lorem ipsum dolor sit amet consectetur adipisicing
-                    elit.
-                    Assumenda,
-                    repellendus
-                    nulla fugit animi doloribus est consequuLorem ipsum dolor sit amet consectetur
-                    adipisicing elit.
-                    Assumenda, repellendus nulla fugit animi doloribus est consequuLorem ipsum dolor sit
-                    amet
-                    consectetur adipisicing elit. Assumenda, repellendus nulla fugit animi doloribus est
-                    consequuLorem
-                    ipsum dolor sit amet consectetur adipisicing elit. Assumenda, repellendus nulla
-                    fugit animi</p>
-            </div>
-            <div class="story_card">
-                <h4 class="story_name">اسم القصة</h4>
-                <p class="story_text">Lorem ipsum dolor sit amet consectetur adipisicing
-                    elit.
-                    Assumenda,
-                    repellendus
-                    nulla fugit animi doloribus est consequuLorem ipsum dolor sit amet consectetur
-                    adipisicing elit.
-                    Assumenda, repellendus nulla fugit animi doloribus est consequuLorem ipsum dolor sit
-                    amet
-                    consectetur adipisicing elit. Assumenda, repellendus nulla fugit animi doloribus est
-                    consequuLorem
-                    ipsum dolor sit amet consectetur adipisicing elit. Assumenda, repellendus nulla
-                    fugit animi</p>
-            </div>
-            <div class="story_card">
-                <h4 class="story_name">اسم القصة</h4>
-                <p class="story_text">Lorem ipsum dolor sit amet consectetur adipisicing
-                    elit.
-                    Assumenda,
-                    repellendus
-                    nulla fugit animi doloribus est consequuLorem ipsum dolor sit amet consectetur
-                    adipisicing elit.
-                    Assumenda, repellendus nulla fugit animi doloribus est consequuLorem ipsum dolor sit
-                    amet
-                    consectetur adipisicing elit. Assumenda, repellendus nulla fugit animi doloribus est
-                    consequuLorem
-                    ipsum dolor sit amet consectetur adipisicing elit. Assumenda, repellendus nulla
-                    fugit animi</p>
-            </div>
-            <div class="story_card">
-                <h4 class="story_name">اسم القصة</h4>
-                <p class="story_text">Lorem ipsum dolor sit amet consectetur adipisicing
-                    elit.
-                    Assumenda,
-                    repellendus
-                    nulla fugit animi doloribus est consequuLorem ipsum dolor sit amet consectetur
-                    adipisicing elit.
-                    Assumenda, repellendus nulla fugit animi doloribus est consequuLorem ipsum dolor sit
-                    amet
-                    consectetur adipisicing elit. Assumenda, repellendus nulla fugit animi doloribus est
-                    consequuLorem
-                    ipsum dolor sit amet consectetur adipisicing elit. Assumenda, repellendus nulla
-                    fugit animi</p>
-            </div>
-        </section>
+      <!-- -----LISTENNG SECTION----- -->
 
-
-        <!-- -----WATCHING SECTION----- -->
-
-        <section class="watch_sec" id="watch_sec">
-            <iframe class="embed_video" src="https://www.youtube.com/embed/wzhYJ4HMb2k" title="YouTube video player"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-            <iframe class="embed_video" src="https://www.youtube.com/embed/6c3wW777GtI" title="YouTube video player"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-            <iframe class="embed_video" src="https://www.youtube.com/embed/o1QR09aShcQ" title="YouTube video player"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-        </section>
-
-
-        <!-- -----LISTENNG SECTION----- -->
-
-        <section class="listen_sec" id="listen_sec">
-            <audio class="embed_audio" controls="true" src=""></audio>
-            <audio class="embed_audio" controls="true" src=""></audio>
-            <audio class="embed_audio" controls="true" src=""></audio>
-            <audio class="embed_audio" controls="true" src=""></audio>
-            <audio class="embed_audio" controls="true" src=""></audio>
-        </section>
-    </main>
-
+      <section class="listen_sec" id="listen_sec">
+        <audio class="embed_audio" controls="true" src=""></audio>
+        <audio class="embed_audio" controls="true" src=""></audio>
+        <audio class="embed_audio" controls="true" src=""></audio>
+        <audio class="embed_audio" controls="true" src=""></audio>
+        <audio class="embed_audio" controls="true" src=""></audio>
+      </section>
+    </div>
 
     <!-- ----------FOOTER---------- -->
 
     <footer class="footer">
-        <ul>
-            <li>
-                <a href="" target="_blank"><i class="fa-solid fa-envelope"></i></a>
-            </li>
-            <li>
-                <a href="" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-            </li>
-            <li>
-                <a href="" target="_blank"><i class="fa-brands fa-facebook-square"></i></a>
-            </li>
-        </ul>
+      <ul>
+        <li>
+          <a href="" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+        </li>
+        <li>
+          <a href="" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        </li>
+        <li>
+          <a href="" target="_blank"
+            ><i class="fa-brands fa-facebook-square"></i
+          ></a>
+        </li>
+      </ul>
     </footer>
-
-</body>
-
+  </body>
 </html>
