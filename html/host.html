@@ -1,78 +1,90 @@
 <!DOCTYPE html>
 <html lang="ar">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>المضيف</title>
-    <link rel="stylesheet" href="../css/all.min.css">
-    <link rel="stylesheet" href="../css/host.css">
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
-    <link rel="icon" href="../logos/logo_white.svg">
+    <link rel="stylesheet" href="../css/all.min.css" />
+    <link rel="stylesheet" href="../css/host.css" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="icon" href="../logos/logo_white.svg" />
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  </head>
 
-</head>
-
-<body dir="rtl" class="body">
+  <body dir="rtl" class="body">
     <!-- ----------MENU BAR---------- -->
     <!-- -----UPDATE----- -->
     <nav id="nav" class="menu_bar">
-        <div class="menu_logo">
-            <a href="index.html">
-                <img src="../logos/logo_orange.svg" alt="logo">
-            </a>
-        </div>
-        <ul class="menu_items">
-            <li>
-                <a href="hosts.html">
-                    المضايف
-                    <div class="underlind"></div>
-                </a>
-            </li>
-            <li>
-                <a href="map.html">
-                    الخارطة
-                    <div class="underlind"></div>
-                </a>
-            </li>
-            <li>
-                <a href="stories.html">
-                    القصص
-                    <div class="underlind"></div>
-                </a>
-            </li>
-        </ul>
+      <div class="menu_logo">
+        <a href="index.html">
+          <img src="../logos/logo_orange.svg" alt="logo" />
+        </a>
+      </div>
+      <ul class="menu_items">
+        <li>
+          <a href="hosts.html">
+            المضايف
+            <div class="underlind"></div>
+          </a>
+        </li>
+        <li>
+          <a href="map.html">
+            الخارطة
+            <div class="underlind"></div>
+          </a>
+        </li>
+        <li>
+          <a href="stories.html">
+            القصص
+            <div class="underlind"></div>
+          </a>
+        </li>
+      </ul>
     </nav>
-
 
     <!-- ----------MAIN---------- -->
 
-    <main>
+    <div class="host-container">
+      <!-- -----HEADER----- -->
 
-        <!-- -----HEADER----- -->
+      <header class="host_info">
+        <h1 class="host_name">اسم المضيف</h1>
+        <p class="host_des">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet,
+          impedit harum? Eos praesentium quisquam iste sunt provident, odit
+          debitis, eaque quae nihil accusamus deserunt temporibus, minus
+          reprehenderit minima a quasi labore qui! Delectus, quidem vero
+          quibusdam nihil autem, doloremque illum minus mollitia molestias totam
+          modi id iure a. Ratione, animi?
+        </p>
+      </header>
 
-        <header class="host_info">
-            <h1 class="host_name">اسم المضيف</h1>
-            <p class="host_des">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, impedit harum? Eos
-                praesentium quisquam iste sunt provident, odit debitis, eaque quae nihil accusamus deserunt temporibus,
-                minus reprehenderit minima a quasi labore qui! Delectus, quidem vero quibusdam nihil autem, doloremque
-                illum minus mollitia molestias totam modi id iure a. Ratione, animi?</p>
-        </header>
+      <!-- -----GALLERY----- -->
 
-
-        <!-- -----GALLERY----- -->
-
-        <section class="gallery_sec">
-            <div class="gallery">
-                <div class="image"><span><img src="../images/holy-shrine.jpg" alt=""></span></div>
-                <div class="image"><span><img src="../images/img-card3.jpg" alt=""></span></div>
-                <div class="image"><span><img src="../images/wallpaper1.jpg" alt=""></span></div>
-                <div class="image img5"><span><img src="../images/img-card2.jpg" alt=""></span></div>
-                <div class="image"><span><img src="../images/wallpaper2.jpg" alt=""></span></div>
-                <div class="image"><span><img src="../images/img-card1.jpg" alt=""></span></div>
-            </div>
-            <div class="preview-box">
+      <section class="gallery_sec">
+        <div class="gallery">
+          <div class="image">
+            <span><img src="../images/holy-shrine.jpg" alt="" /></span>
+          </div>
+          <div class="image">
+            <span><img src="../images/img-card3.jpg" alt="" /></span>
+          </div>
+          <div class="image">
+            <span><img src="../images/wallpaper1.jpg" alt="" /></span>
+          </div>
+          <div class="image img5">
+            <span><img src="../images/img-card2.jpg" alt="" /></span>
+          </div>
+          <div class="image">
+            <span><img src="../images/wallpaper2.jpg" alt="" /></span>
+          </div>
+          <div class="image">
+            <span><img src="../images/img-card1.jpg" alt="" /></span>
+          </div>
+        </div>
+        <div class="preview-box">
                 <div class="details">
                     <span class="close fa-solid fa-xmark">
                 </div>
@@ -82,37 +94,40 @@
                     <img src="" alt="">
                 </div>
             </div>
-            <div class="shadow"></div>
-        </section>
+        <div class="shadow"></div>
+      </section>
 
+      <!-- -----MAP----- -->
 
-        <!-- -----MAP----- -->
-
-        <section class="map_sec">
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11279.904465438416!2d44.03199248396523!3d32.617749088366175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15596bc263a72c73%3A0xf7f3a3cbf5c0fd0e!2sAl-Imam%20Al-Hussain%20Holy%20Shrine!5e0!3m2!1sen!2siq!4v1651327159184!5m2!1sen!2siq"
-                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
-        </section>
-    </main>
-
+      <section class="map_sec">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11279.904465438416!2d44.03199248396523!3d32.617749088366175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15596bc263a72c73%3A0xf7f3a3cbf5c0fd0e!2sAl-Imam%20Al-Hussain%20Holy%20Shrine!5e0!3m2!1sen!2siq!4v1651327159184!5m2!1sen!2siq"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          class="map"
+        ></iframe>
+      </section>
+    </div>
 
     <!-- ----------FOOTER---------- -->
 
     <footer class="footer">
-        <ul>
-            <li>
-                <a href="" target="_blank"><i class="fa-solid fa-envelope"></i></a>
-            </li>
-            <li>
-                <a href="" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-            </li>
-            <li>
-                <a href="" target="_blank"><i class="fa-brands fa-facebook-square"></i></a>
-            </li>
-        </ul>
+      <ul>
+        <li>
+          <a href="" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+        </li>
+        <li>
+          <a href="" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        </li>
+        <li>
+          <a href="" target="_blank"
+            ><i class="fa-brands fa-facebook-square"></i
+          ></a>
+        </li>
+      </ul>
     </footer>
 
     <script src="../js/host.js"></script>
-</body>
-
+  </body>
 </html>

@@ -1,0 +1,6 @@
+.host-container {
+  padding: 10%;
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+}
